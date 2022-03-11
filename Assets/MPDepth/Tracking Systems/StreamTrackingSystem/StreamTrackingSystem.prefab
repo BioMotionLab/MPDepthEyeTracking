@@ -1,0 +1,595 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &462936443141667180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 462936443141667171}
+  - component: {fileID: 462936443141667169}
+  - component: {fileID: 462936443141667170}
+  m_Layer: 0
+  m_Name: StreamTrackingReceiver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &462936443141667171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462936443141667180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 462936444146262099}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &462936443141667169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462936443141667180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8812770b48a3ef54193b2572409d50ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rawTrackingData:
+    IsTracking: 0
+    CameraTrackingData:
+      Position: {x: 0, y: 0, z: 0}
+      Eulers: {x: 0, y: 0, z: 0}
+    EyeTrackingData:
+      LeftEyeTrackingData:
+        Position: {x: 0, y: 0, z: 0}
+        Eulers: {x: 0, y: 0, z: 0}
+      RightEyeTrackingData:
+        Position: {x: 0, y: 0, z: 0}
+        Eulers: {x: 0, y: 0, z: 0}
+      FixationPointTrackingData:
+        Position: {x: 0, y: 0, z: 0}
+    BlendshapeTrackingData:
+      Blendshapes:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+--- !u!114 &462936443141667170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462936443141667180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6836ed3c174ae424c8ba8b81cbeeb580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: 32123
+  address: 10.0.0.109
+  receiving: 0
+  timeSinceLastUpdate: 0
+  receiveCutoff: 0.25
+  showConnectionRefusedError: 1
+  warningDelayTime: 20
+  ReceivedData:
+    IsTracking: 0
+    CameraTrackingData:
+      Position: {x: 0, y: 0, z: 0}
+      Eulers: {x: 0, y: 0, z: 0}
+    EyeTrackingData:
+      LeftEyeTrackingData:
+        Position: {x: 0, y: 0, z: 0}
+        Eulers: {x: 0, y: 0, z: 0}
+      RightEyeTrackingData:
+        Position: {x: 0, y: 0, z: 0}
+        Eulers: {x: 0, y: 0, z: 0}
+      FixationPointTrackingData:
+        Position: {x: 0, y: 0, z: 0}
+    BlendshapeTrackingData:
+      Blendshapes:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+--- !u!1 &462936443773890043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 462936443773890042}
+  m_Layer: 0
+  m_Name: CalibrationObjects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &462936443773890042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462936443773890043}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 462936444415056353}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &462936444060436802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 462936444060436801}
+  - component: {fileID: 462936444060436807}
+  - component: {fileID: 462936444060436800}
+  m_Layer: 0
+  m_Name: ScreenCalibrationProvider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &462936444060436801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462936444060436802}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 462936444146262099}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &462936444060436807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462936444060436802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e9e10414b7490783ddbb03dabd54f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentCalibration:
+    Width: 8
+    Height: 4.5
+    name: Default calibration
+  savedCalibrations: []
+  screenCalibrator: {fileID: 462936444060436800}
+--- !u!114 &462936444060436800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462936444060436802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa05955bb102486ea93bb38fbd0afc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  insideScreen: {fileID: 0}
+  outsideScreen: {fileID: 0}
+  calibrationUI: {fileID: 0}
+  amount: 0.001
+  altAmt: 0.05
+--- !u!1 &462936444146262108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 462936444146262099}
+  - component: {fileID: 462936444146262098}
+  m_Layer: 0
+  m_Name: StreamTrackingSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &462936444146262099
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462936444146262108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 462936443141667171}
+  - {fileID: 462936444415056353}
+  - {fileID: 462936445095957987}
+  - {fileID: 462936444060436801}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &462936444146262098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462936444146262108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24492bb22186744d38a8f1019ea11bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackingSource: {fileID: 462936445095957986}
+  trackingCalibrationProvider: {fileID: 462936444415056359}
+  screenCalibrationProvider: {fileID: 462936444060436807}
+  mainUI: {fileID: 0}
+  offAxisCameraRig: {fileID: 0}
+  offAxisCamera: {fileID: 0}
+--- !u!1 &462936444415056354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 462936444415056353}
+  - component: {fileID: 462936444415056359}
+  - component: {fileID: 462936444415056352}
+  m_Layer: 0
+  m_Name: StreamTrackingCalibration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &462936444415056353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462936444415056354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 462936443773890042}
+  m_Father: {fileID: 462936444146262099}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &462936444415056359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462936444415056354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e1abf6aa6bb5294d81b7ea1c06a170f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentCalibration:
+    name: Default Name
+    TrackerOffsetCalibration:
+      Position: {x: 0, y: 0, z: 0}
+      Eulers: {x: 0, y: 0, z: 0}
+  savedCalibrations: []
+  calibrator: {fileID: 462936444415056352}
+--- !u!114 &462936444415056352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462936444415056354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19111fd252013b429f096eaeb329f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackingSource: {fileID: 462936443141667169}
+  calibrationObjects: {fileID: 0}
+  calibrationUI: {fileID: 0}
+  manualCalibrationDistance: 0
+  defaultDistanceFromScreenCenter: 0
+  calibrationTransform: {fileID: 0}
+--- !u!1 &462936445095957996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 462936445095957987}
+  - component: {fileID: 462936445095957986}
+  m_Layer: 0
+  m_Name: CameraCalibrationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &462936445095957987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462936445095957996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 462936444146262099}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &462936445095957986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462936445095957996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c3b3c17a7f6b42ce94651afb641bac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackingSource: {fileID: 462936443141667169}
+  trackingCalibrationProvider: {fileID: 462936444415056359}
+  offsetTransform: {fileID: 0}
+  rawTrackingData:
+    IsTracking: 0
+    CameraTrackingData:
+      Position: {x: 0, y: 0, z: 0}
+      Eulers: {x: 0, y: 0, z: 0}
+    EyeTrackingData:
+      LeftEyeTrackingData:
+        Position: {x: 0, y: 0, z: 0}
+        Eulers: {x: 0, y: 0, z: 0}
+      RightEyeTrackingData:
+        Position: {x: 0, y: 0, z: 0}
+        Eulers: {x: 0, y: 0, z: 0}
+      FixationPointTrackingData:
+        Position: {x: 0, y: 0, z: 0}
+    BlendshapeTrackingData:
+      Blendshapes:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  calibratedTrackingData:
+    IsTracking: 0
+    CameraTrackingData:
+      Position: {x: 0, y: 0, z: 0}
+      Eulers: {x: 0, y: 0, z: 0}
+    EyeTrackingData:
+      LeftEyeTrackingData:
+        Position: {x: 0, y: 0, z: 0}
+        Eulers: {x: 0, y: 0, z: 0}
+      RightEyeTrackingData:
+        Position: {x: 0, y: 0, z: 0}
+        Eulers: {x: 0, y: 0, z: 0}
+      FixationPointTrackingData:
+        Position: {x: 0, y: 0, z: 0}
+    BlendshapeTrackingData:
+      Blendshapes:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
